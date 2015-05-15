@@ -1,0 +1,28 @@
+{
+  "name": "sample-rss-reader",
+  "version": "0.0.0",
+  "description": "RSS Reader Node.js Sample Application",
+  "main": "index.js",
+  "dependencies": {
+    "browser-sync": "~2.7.1",
+    "express": "^4.12.3",
+    "feed-read": "0.0.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.7.1",
+    "gulp": "^3.8.11"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/daugaard/hairy-tyrion.git"
+  },
+  "author": "Soren Daugaard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daugaard/hairy-tyrion/issues"
+  },
+  "homepage": "https://github.com/daugaard/hairy-tyrion"
+}
