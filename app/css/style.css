@@ -1,1 +1,15 @@
-style.css
+body {
+  font-family: "Verdana"; }
+
+h1 {
+  color: #333; }
+
+hr {
+  border: 1px solid #f9f9f9; }
+
+#news-container .news-item {
+  padding: 5px; }
+  #news-container .news-item h2 {
+    margin-top: 0px; }
+  #news-container .news-item a {
+    text-decoration: none; }

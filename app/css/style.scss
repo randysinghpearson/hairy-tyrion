@@ -1,0 +1,30 @@
+$font-family: 'Verdana';
+$primary-color: #333;
+$secondary-color: #f9f9f9;
+
+body {
+	font-family: $font-family;
+}
+
+h1 {
+	color: $primary-color;
+}
+
+hr {
+	border: 1px solid $secondary-color;
+}
+
+#news-container {
+	
+	.news-item {
+		padding: 5px;
+		
+		h2 {
+			margin-top: 0px;
+		}
+
+		a {
+			text-decoration: none;
+		}
+	}
+}

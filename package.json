@@ -10,7 +10,8 @@
   },
   "devDependencies": {
     "browser-sync": "^2.7.1",
-    "gulp": "^3.8.11"
+    "gulp": "^3.8.11",
+    "gulp-sass": "^2.0.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

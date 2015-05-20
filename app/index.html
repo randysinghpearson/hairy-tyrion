@@ -1,15 +1,24 @@
 <html>
 	<head>
-		<title>Sample RSS Reader</title>
+		<title>RSS News Reader</title>
+		<link rel="stylesheet" type="text/css" href="/css/style.css">
 	</head>
 	<body>
-		<h1>Sample RSS Reader</h1>
+		<h1>RSS News Reader</h1>
 		<div>
-			<input name='rss-feed' type='text' size='100' value="http://www.nhl.com/rss/news.xml" />
+			<input name='rss-feed' type='text' size='70' value="http://www.nhl.com/rss/news.xml" />
 			<input name='rss-load-button' type='submit' value='Load RSS' />
 		</div>
 
 		<hr/>
+
+		<div id='news-container'>
+			<div class='news-item'> 
+				<h2>Sample item for styling</h2>
+				<p>Sample item for styling, sample item for styling. Sample item for styling, sample item for styling. Sample item for styling, sample item for styling. Sample item for styling, sample item for styling. Sample item for styling, sample item for styling. Sample item for styling, sample item for styling. Sample item for styling, sample item for styling. </p>
+				<a href='http://localhost:8080' target='_new'>Read more<a/>
+			</div>
+		</div>
 
 		<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
 		<script type="text/javascript" src="/js/rssloader.js"></script>
