@@ -7,9 +7,14 @@ h1 {
 hr {
   border: 1px solid #f9f9f9; }
 
-#news-container .news-item {
-  padding: 5px; }
-  #news-container .news-item h2 {
-    margin-top: 0px; }
-  #news-container .news-item a {
-    text-decoration: none; }
+#news-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+  #news-container .news-item {
+    padding: 5px;
+    width: 500px; }
+    #news-container .news-item h2 {
+      margin-top: 0px; }
+    #news-container .news-item a {
+      text-decoration: none; }
